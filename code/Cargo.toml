@@ -1,0 +1,28 @@
+[package]
+name = "parametric_speaker"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-hal = "1.0.0"
+nb = "1"
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.3"
+defmt = "0.3.8"
+defmt-rtt = "0.4.1"
+panic-probe = { version = "0.3.2", features = ["print-defmt"] }
+stm32f4xx-hal = { version = "0.21.0", features = ["stm32f411", "usb_fs"] }
+fugit = "0.3.7"
+idsp = "0.15.1"
+usb-device = { version = "0.3.2", features = ["control-buffer-256"] }
+usbd-audio = { git = "https://github.com/Orange-Murker/usbd-audio.git" }
+heapless = "0.8.0"
+
+[profile.release]
+debug = 2
+
+
+[patch.crates-io]
+synopsys-usb-otg = { git = "https://github.com/Orange-Murker/synopsys-usb-otg.git" }

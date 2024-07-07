@@ -1,0 +1,113 @@
+(footprint "Power_Pads"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1d9cd778-c7b3-499d-8e87-338c0a7cd612")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Power_Pads"
+		(at 0 4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b995f11d-8a28-4970-8e18-812c50e847e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Power_Pads"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bc8e1ea-a1f0-4d4b-8fe3-ef20177604f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ca384b0-bfb0-452c-84a3-89408adbcb5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95980ff4-08d0-4e68-8433-2662dfcd6fed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -9.1 1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "549ba74f-d3bf-409e-bf61-22da1a0c1015")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 6.5 1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ca852d05-2583-4023-bed7-2f9502717db5")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -3.5 0)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "e885338d-a5d8-4f31-9692-27a66ba2e406")
+	)
+	(pad "2" thru_hole roundrect
+		(at 3.5 0)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "97c5769f-fe87-4134-a1cf-6abaa18704cb")
+	)
+)
