@@ -1,5 +1,7 @@
 # Parametric Speaker
 
+![Array](images/array.jpg)
+
 ## What is this?
 
 This is a directional speaker based on a parametric array of 95x 16mm 40kHz ultrasonic transducers.
