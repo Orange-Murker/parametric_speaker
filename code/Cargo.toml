@@ -7,17 +7,17 @@ edition = "2021"
 
 [dependencies]
 embedded-hal = "1.0.0"
-nb = "1"
+nb = "1.1.0"
 cortex-m = "0.7.7"
-cortex-m-rt = "0.7.3"
-defmt = "0.3.8"
+cortex-m-rt = "0.7.5"
+defmt = "0.3.10"
 defmt-rtt = "0.4.1"
 panic-probe = { version = "0.3.2", features = ["print-defmt"] }
-stm32f4xx-hal = { version = "0.21.0", features = ["stm32f411", "usb_fs"] }
+stm32f4xx-hal = { version = "0.22.1", features = ["stm32f411", "usb_fs"] }
 fugit = "0.3.7"
-idsp = "0.15.1"
+idsp = "0.17.0"
 usb-device = { version = "0.3.2", features = ["control-buffer-256"] }
-usbd-audio = { git = "https://github.com/Orange-Murker/usbd-audio.git" }
+usbd-audio = "0.2.0"
 heapless = "0.8.0"
 
 [profile.release]
